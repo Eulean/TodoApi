@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace TodoApi.Dto
+{
+    public class TodoList
+    {
+        public List<TodoDto> Todos { get; set; }
+        public int TotalCount { get; set; }
+
+        public string SearchTerm { get; set; } = "";
+
+    }
+}
